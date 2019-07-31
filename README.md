@@ -6,3 +6,6 @@ For questions, send email to power4gcp@googlegroups.com . Your email is private 
 # Learn more 
 About IBM Power Systems
 IBM Power Systems are designed to transform your business, whether you are running your most sensitive, mission critical workloads, or the next generation of AI workloads. It has solutions for private, public, hybrid or multicloud approaches, giving flexibility and choice for growing businesses.
+
+# About
+The docs repository contains the markdown source for the IBM Power Systems for Google Cloud offering. 
