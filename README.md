@@ -8,4 +8,4 @@ About IBM Power Systems
 IBM Power Systems are designed to transform your business, whether you are running your most sensitive, mission critical workloads, or the next generation of AI workloads. It has solutions for private, public, hybrid or multicloud approaches, giving flexibility and choice for growing businesses.
 
 # About
-The docs repository contains the markdown source for the IBM Power Systems for Google Cloud offering. 
+The current repository contains the markdown source for the IBM Power Systems for Google Cloud offering. To see the most recent version of the IBM Power Systems for Google Cloud documentation, go to https://pforg.ibm.com/docs. 
