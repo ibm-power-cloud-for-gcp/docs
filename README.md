@@ -1,34 +1,8 @@
-# docs
+# Overview
+IBM Power Systems for Google Cloud is an infrastructure as a service offering from IBM and available from the Google Cloud Marketplace. This offer provides cloud instances running on IBM Power Systems servers with PowerVM. The service uses a monthly subscription model for cloud instance plans with different capacities of compute, memory, storage, and network.
+Cloud plans provide a virtual network address space that is integrated into the VPC networks of the subscriber’s selected GCP project. Power virtual machine IP addresses are internal IPs within the subscriber’s project. Subscribers can use a command line tool or a web console to create and manage virtual machines (Power LPARs) in their cloud instance. Cloud plans include a license to run the AIX operating system. More details on the subscription process can be found at the "Learn more" link below
+For questions, send email to power4gcp@googlegroups.com . Your email is private to IBM and Google representatives who will follow up with you.
 
-Documents, artifacts, diagrams, etc for the IBM Power in GCP
-
-## Directory layout
-
-* `/configuration.yaml` - contains the metadata used for templating
-* `/devops` - location for devops tools
-  * `/tools` - marked-it-cli installation location
-* `/format` - support javascript used to convert markdown to html
-* **`/markdown`** - location for documentation files
-
-## Building manually
-
-1. Install nodejs. \[ [Mac OS](https://nodejs.org/en/download/package-manager/#macos) | [Windows 10](https://nodejs.org/en/download/package-manager/#windows) \]
-1. Install packages in `devops/tools`
-
-    ```shell
-    cd devops/tools
-    npm install
-    ```
-
-1. Run the marked-it-cli to generate the output
-
-    ```shell
-    devops/tools/node_modules/.bin/marked-it-cli markdown --output=./html --extension-file=./format/headerFooterExt.js --conref-file=./configuration.yml
-    ```
-
-    This will build the markdown files in the `markdown` directory and output it to
-    the `html` directory.
-
-
-    `configuration.yml` contain any metadata variables that can be included in
-    the markdown. See: [GitHub](https://github.com/ibm/marked-it-cli)
+# Learn more 
+About IBM Power Systems
+IBM Power Systems are designed to transform your business, whether you are running your most sensitive, mission critical workloads, or the next generation of AI workloads. It has solutions for private, public, hybrid or multicloud approaches, giving flexibility and choice for growing businesses.
